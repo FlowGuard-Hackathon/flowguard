@@ -1,0 +1,47 @@
+# Repositorio combinado (git subtree) de docs/supabase/src/app/mocks/tests.
+# Estas reglas aplican sin importar en qué subcarpeta esté el archivo,
+# porque "node_modules/" o ".env" sin barra inicial coincide en cualquier nivel.
+
+# Dependencias
+node_modules/
+
+# Next.js (app/)
+.next/
+out/
+
+# Supabase CLI (supabase/)
+.supabase/
+supabase/.temp/
+
+# Variables de entorno y secretos — NUNCA subir claves de Nebius/Supabase,
+# sin importar en qué subcarpeta (docs/, src/, app/, mocks/, tests/) se creen
+.env
+.env*.local
+.env.development
+.env.production
+.env.test
+
+# Pruebas (tests/)
+coverage/
+playwright-report/
+test-results/
+blob-report/
+
+# Build / TypeScript
+dist/
+build/
+*.tsbuildinfo
+
+# Logs
+*.log
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+
+# Credenciales sueltas que alguien podría arrastrar por accidente
+*.pem
+*.key
+service-account*.json
