@@ -4,6 +4,10 @@ Este repositorio junta los seis repos independientes de FlowGuard en uno solo, c
 
 Mientras el equipo trabaja, cada quien sigue empujando a su propio repo (`flowguard-docs`, `flowguard-supabase`, `flowguard-src`, `flowguard-app`, `flowguard-mocks`, `flowguard-tests`). Este repositorio se actualiza cuando se decida congelar una integración (por ejemplo, para la demo final).
 
+## Responsables
+
+La integración técnica del backend en este repositorio la coordina **Dev 1**, siguiendo la estrategia `git subtree` descrita aquí. **Dev 4** automatiza las verificaciones que la hacen reproducible. Los demás puestos contribuyen según su módulo y mantienen sincronizado el suyo. Ver la distribución completa en [flowguard-docs/README.md](https://github.com/FlowGuard-Hackathon/flowguard-docs/blob/main/README.md#distribución-del-equipo-cinco-puestos).
+
 ## Por qué `git subtree` y no `git submodule`
 
 - Un **submódulo** solo guarda un puntero a un commit de cada repo; clonar el repo combinado requiere un paso extra (`git submodule update --init`) y el código de los submódulos no aparece realmente dentro del repo combinado.
