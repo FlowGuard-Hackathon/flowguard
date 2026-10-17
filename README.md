@@ -53,4 +53,4 @@ git subtree push --prefix=docs docs-origin main
 
 ## Estado actual
 
-Este repositorio todavía no tiene ninguna carpeta integrada — está preparado para la primera integración descrita arriba, cuando el equipo decida hacerla (recomendado: no antes del hito del día 6 de [flowguard-docs/implementation-checklist.md](https://github.com/FlowGuard-Hackathon/flowguard-docs/blob/main/implementation-checklist.md), para no congelar algo que todavía está cambiando mucho).
+Este repositorio todavía no tiene ninguna carpeta integrada — está preparado para la primera integración descrita arriba, cuando el equipo decida hacerla (recomendado: no antes del hito del día 6 de [flowguard-docs/checklist-implementacion.md](https://github.com/FlowGuard-Hackathon/flowguard-docs/blob/main/checklist-implementacion.md), para no congelar algo que todavía está cambiando mucho).
